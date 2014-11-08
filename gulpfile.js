@@ -5,9 +5,9 @@ var reload = browserSync.reload;
 gulp.task('serve-dev', function() {
   browserSync({
     server: {
-      baseDir: 'app'
+      baseDir: '.'
     }
   });
 
-  gulp.watch(['*.html', 'scripts/**/*.js'], {cwd: 'app'}, reload);
+  gulp.watch(['*.html', 'scripts/**/*.js'], reload);
 });
