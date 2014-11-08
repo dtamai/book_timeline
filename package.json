@@ -1,0 +1,23 @@
+{
+  "name": "book_timeline",
+  "version": "0.0.1",
+  "description": "Experimental visualization",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dtamai/book_timeline.git"
+  },
+  "author": "Daniel Tamai",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/dtamai/book_timeline/issues"
+  },
+  "homepage": "https://github.com/dtamai/book_timeline",
+  "dependencies": {
+    "browser-sync": "^1.6.3",
+    "gulp": "^3.8.10"
+  }
+}
