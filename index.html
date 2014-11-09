@@ -6,13 +6,13 @@
 body {
   background: #FFFFF3;
 }
-.boxes rect {
+rect.box {
   fill: steelblue;
   stroke: black;
   stroke-width: 1px;
 }
 
-.boxes .in-progress rect {
+rect.box.in-progress {
   fill: orange;
 }
 
@@ -45,6 +45,7 @@ div.tooltip {
   </head>
 
   <body>
+    <label><input type="checkbox">Stack</label>
     <svg class="boxes"></svg>
 
     <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
