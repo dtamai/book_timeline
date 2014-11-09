@@ -9,5 +9,5 @@ gulp.task('serve-dev', function() {
     }
   });
 
-  gulp.watch(['*.html', 'scripts/**/*.js'], reload);
+  gulp.watch(['*.html', 'javascripts/**/*.js'], reload);
 });
