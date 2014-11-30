@@ -5,7 +5,7 @@ var dateFormat = d3.time.format("%Y-%m-%d"),
 
 
 var width = 1500,
-    height = 25,
+    height = 20,
     boxWidth = 700;
 
 var x = d3.scale.linear()
@@ -22,6 +22,9 @@ parseRaw = function(d) {
   } else {
     duration = dayOfYearFormat(new Date()) - dayOfYearFormat(dateStarted);
     inProgress = true;
+  }
+  if (duration <= 0) {
+    duration = 1;
   }
   return {
     title: d.Title,
