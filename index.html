@@ -16,6 +16,11 @@ rect.box.in-progress {
   fill: orange;
 }
 
+.boxes {
+  position: relative;
+  top: 1em;
+}
+
 .boxes text {
   font-size: .9em;
   font-family: monospace;
@@ -41,11 +46,15 @@ div.tooltip {
   border-radius: 8px;
   pointer-events: none;
 }
+
+#stack-check-box {
+  position: absolute;
+}
     </style>
   </head>
 
   <body>
-    <label><input type="checkbox">Stack</label>
+    <label id="stack-check-box"><input type="checkbox">Stack</label>
     <svg class="boxes"></svg>
 
     <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
