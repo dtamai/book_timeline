@@ -74,9 +74,10 @@ load = function(source) {
         .attr("width", width)
         .attr("height", 50 + height * rows.length);
 
+    svgRoot.selectAll(".box").remove();
     var bar = svgRoot.selectAll(".box")
-        .data(rows)
-      .enter().append("rect")
+        .data(rows);
+    bar.enter().append("rect")
         .attr("class", function(d) { return "box " + (d.inProgress ? "in-progress" : ""); })
         .attr("width", function(d) { return d.width; })
         .attr("height", height - 3)
@@ -84,7 +85,11 @@ load = function(source) {
         .attr("y", function(d) { return 40 + d.lane * height; })
         .on("mouseover", mouseover)
         .on("mousemove", mousemove)
-        .on("mouseout", mouseout);
+        .on("mouseout", mouseout)
+        .style("opacity", 1e-6)
+        .transition()
+        .duration(500)
+        .style("opacity", 1);
 
     var tooltip = d3.select("body").append("div")
         .attr("class", "tooltip")
@@ -178,11 +183,16 @@ line = function() {
       .text(function(d) { return d[1]; });
 };
 
+selectYear = function(year) {
+  load(year + ".csv");
+}
+
 return {
   drawBoxes: load,
-  drawLine: line
+  drawLine: line,
+  selectYear: selectYear
 };
 })()
 
 timeline.drawLine();
-timeline.drawBoxes("booklist.csv");
+timeline.drawBoxes("2015.csv");

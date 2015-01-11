@@ -47,14 +47,26 @@ div.tooltip {
   pointer-events: none;
 }
 
+#control-wrapper {
+  position: relative;
+}
+
 #stack-check-box {
-  position: absolute;
+}
+
+#select-year {
 }
     </style>
   </head>
 
   <body>
-    <label id="stack-check-box"><input type="checkbox">Stack</label>
+    <div id="control-wrapper">
+      <select id="select-year" name="year" onchange="timeline.selectYear(this.options[this.selectedIndex].value);">
+        <option value="2014">2014</option>
+        <option value="2015" selected="selected">2015</option>
+      </select>
+      <label id="stack-check-box"><input type="checkbox">Stack</label>
+    </div>
     <svg class="boxes"></svg>
 
     <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
