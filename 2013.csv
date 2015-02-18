@@ -1,0 +1,56 @@
+Date Started,Date Read,Title,Author,Additional Authors
+2013-01-01,2013-01-06,"Shipping Greatness: Practical lessons on building and launching outstanding software, learned on the job at Google and Amazon",Chris Vander Mey,
+2013-01-03,2013-02-03,JUnit Pocket Guide,Kent Beck,
+2013-01-13,2013-01-15,The Passionate Programmer,Chad Fowler,
+2013-01-23,2013-01-24,Old Man's War (Old Man's War #1),John Scalzi,
+2013-01-30,2013-02-06,"Starcraft: I, Mengsk",Graham McNeill,
+2013-02-03,2013-03-06,Programming Scala: Scalability = Functional Programming + Objects,Dean Wampler,Alex Payne
+2013-02-07,2013-02-10,The Great Gatsby,F. Scott Fitzgerald,
+2013-02-10,2013-02-12,Uprising (Starcraft 0.5),Micky Neilson,
+2013-02-12,2013-02-17,The Lost Symbol,Dan Brown,
+2013-02-19,2013-02-19,The Old Man and the Sea,Ernest Hemingway,
+2013-02-19,2013-02-22,The Shadow-Line,Joseph Conrad,
+2013-02-22,2013-03-03,Pump Six and Other Stories (Pump Six and Other Stories),Paolo Bacigalupi,
+2013-03-02,2013-03-10,"House of Five Leaves, Vol. 8 (House of Five Leaves / さらい屋五葉 #8)",Natsume Ono,
+2013-03-05,2013-03-07,Flashpoint (Starcraft II #3),Christie Golden,
+2013-03-06,2013-03-14,New Programmer's Survival Manual,Joshua Carter,
+2013-03-07,2013-05-08,The Fellowship of the Ring (The Lord of the Rings #1),J.R.R. Tolkien,
+2013-03-14,2013-03-20,Technical Blogging,Antonio Cangiano,
+2013-03-21,2013-03-25,Interactive Data Visualization for the Web,Scott Murray,
+2013-03-25,2013-03-28,The Developer's Code,Ka Wai Cheung,
+2013-03-28,2013-04-07,Practical Object Oriented Design in Ruby,Sandi Metz,
+2013-03-28,2013-05-02,JavaScript: The Definitive Guide,David Flanagan,
+2013-05-03,2013-05-10,Working Effectively with Legacy Code,Michael C. Feathers,
+2013-05-08,2013-05-23,The Two Towers (The Lord of the Rings #2),J.R.R. Tolkien,
+2013-05-10,2013-06-06,Os Exilados da Capela,Edgard Armond,
+2013-05-15,2013-05-20,Mind Performance Hacks: Tips & Tools for Overclocking Your Brain,Ron-Hale Evans,
+2013-05-23,2013-05-28,Solid Code,Donis Marshall,John Bruno
+2013-05-28,2013-06-19,Windows PowerShell for Developers,Douglas Finke,
+2013-06-22,2013-06-28,Testing in Scala,Daniel Hinojosa,
+2013-06-28,2013-06-29,Impact Mapping: Making a Big Impact with Software Products and Projects,Gojko Adzic,
+2013-06-30,2013-07-09,Hacking: The Art of Exploitation,Jon Erickson,
+2013-06-06,2013-06-10,The Visual Display of Quantitative Information,Edward R. Tufte,
+2013-07-07,2013-07-11,"Spice and Wolf, Book 1 (Spice & Wolf #1)",Isuna Hasekura,
+2013-07-10,2013-07-17,Programming Pearls,Jon L. Bentley,Patrick Chan
+2013-07-11,2013-07-17,"Spice & Wolf, Book 2 (Spice & Wolf #2)",Isuna Hasekura,
+2013-07-17,2013-07-28,The Guide to Computer Simulations and Games,K. Becker,J.R. Parker
+2013-07-17,2013-07-18,Danza,Natsume Ono,
+2013-07-19,2013-07-28,"Learning Web Design: A Beginner's Guide to HTML, CSS, JavaScript, and Web Graphics",Jennifer Niederst Robbins,
+2013-07-31,2013-08-12,"You Are Now Less Dumb: How to Conquer Mob Mentality, How to Buy Happiness, and All the Other Ways to Ou tsmart Yourself",David McRaney,
+2013-07-31,2013-08-14,Developing a D3.js Edge,Roland Dunn,"Ger Hobbelt, Andrew Thornton, Chris Viau, Troy Mott"
+2013-08-02,2013-08-04,"Spice & Wolf, Book 4 (Spice & Wolf #4)",Isuna Hasekura,
+2013-08-11,2013-08-12,"Spice & Wolf, Vol. 1 (Spice & Wolf: Manga #1)",Isuna Hasekura,
+2013-08-16,2013-09-12,Beautiful Code: Leading Programmers Explain How They Think (Theory In Practice),Andy Oram,Greg Wilson
+2013-09-29,2013-10-27,R in a Nutshell: A Desktop Quick Reference,Joseph Adler,
+2013-09-29,2013-10-17,Solanin (Solanin #1-2),Inio Asano,
+2013-10-20,2013-12-18,The Return of the King (The Lord of the Rings #3),J.R.R. Tolkien,
+2013-10-27,2013-11-04,R Graphics Cookbook,Winston Chang,
+2013-11-04,2013-11-15,High Performance JavaScript,Nicolas C. Zakas,
+2013-11-04,2013-11-04,Java Pocket Guide,Robert Liguori,Patricia Liguori
+2013-11-15,2013-11-21,Parallel R,Q. Ethan McCallum,Stephen Weston
+2013-11-21,2013-11-24,Jenkins: The Definitive Guide,John Ferguson Smart,
+2013-11-24,2013-12-04,Stranger Things Happen,Kelly Link,
+2013-12-07,2013-12-12,The Poison Eaters and Other Stories,Holly Black,
+2013-12-12,2013-12-15,The Gospel of the Flying Spaghetti Monster,Bobby Henderson,
+2013-12-22,2013-12-31,Flow: The Psychology of Optimal Experience,Mihaly Csikszentmihalyi,
+2013-12-22,2013-12-29,Peopleware : Productive Projects and Teams,Tom DeMarco,Timothy Lister
