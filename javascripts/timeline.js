@@ -9,7 +9,7 @@ var width = 1500,
     boxWidth = 700;
 
 var x = d3.scale.linear()
-    .range([0, 100])
+        .range([0, 100]);
 
 parseRaw = function(d) {
   var dateStarted = dateFormat.parse(d["Date Started"]),
@@ -35,7 +35,7 @@ parseRaw = function(d) {
     inProgress: inProgress,
     additionalAuthors: d["Additional Authors"]
   };
-}
+};
 
 load = function(source) {
   d3.csv(source, function(d) {
@@ -144,7 +144,7 @@ load = function(source) {
 line = function() {
   var yearLength = 800;
 
-  var monthFormat = d3.time.format("%b");
+  var monthFormat = d3.time.format("%b/%y");
   var monthLength = 100;
 
   // Jan is month 0 !!
@@ -172,7 +172,7 @@ line = function() {
       .attr("y2", 920);
 
   bar.append("text")
-      .attr("x", -10)
+      .attr("x", 0)
       .attr("y", -20)
       .attr("dy", "1em")
       .text(function(d) { return d[1]; });
@@ -180,14 +180,14 @@ line = function() {
 
 selectYear = function(year) {
   load(year + ".csv");
-}
+};
 
 return {
   drawBoxes: load,
   drawLine: line,
   selectYear: selectYear
 };
-})()
+})();
 
 timeline.drawLine();
-timeline.drawBoxes("2016.csv");
+timeline.drawBoxes("2017.csv");
