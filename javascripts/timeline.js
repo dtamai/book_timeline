@@ -47,7 +47,7 @@ load = function(source) {
     }
     x.domain([0, 30]);
     rows.forEach(function(d) {
-      d.startX = x(dayOfYearFormat(d.dateStarted));
+      d.startX = x(dayOfYearFormat(d.dateStarted) - 1);
       d.width = x(d.readingDuration);
       d.endX = d.startX + d.width;
     });
