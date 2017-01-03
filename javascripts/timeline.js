@@ -123,12 +123,7 @@ load = function(source) {
 
     d3.select("input").on("change", change);
 
-    var sortTimeout = setTimeout(function() {
-      d3.select("input").property("checked", true).each(change);
-    }, 2000);
-
     function change() {
-      clearTimeout(sortTimeout);
       var transition = svgRoot.transition().duration(750);
 
       var doStack = this.checked;
