@@ -17,7 +17,7 @@ parseRaw = function(d) {
       duration;
 
   if (dateRead) {
-    duration = dayOfYearFormat(dateRead) - dayOfYearFormat(dateStarted);
+    duration = dayOfYearFormat(dateRead) - dayOfYearFormat(dateStarted) + 1;
     inProgress = false;
   } else {
     duration = dayOfYearFormat(new Date()) - dayOfYearFormat(dateStarted);
